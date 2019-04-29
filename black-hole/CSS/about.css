@@ -138,15 +138,15 @@ html{
 }
 .title{
   position: absolute;
-  top: 280px;
-  left: 35%;
+  top: 300px;
+  left: 25%;
   font-size: 7rem;
   font-family: 'Quicksand', sans-serif;
   color: #111671;
 }
 .paragraph{
   position: absolute;
-  top: 300px;
+  top: 340px;
   left: 83%;
   width: 30%;
   text-align: left;
@@ -160,4 +160,65 @@ html{
   top: 0;
   left: 74%;
   height: 700px;
+}
+.yellow-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+}
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    color:#111671;
+    top: 40px;
+    left: 95%;
+    width: 7em;
+    height: 0.8em;
+    border-top: 1.2em solid #111671;
+    border-bottom: 1.2em solid #111671;
+}
+.dropdown:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0px;
+    width: 100%;
+    border-top: 1.2em solid #111671;
+}
+.dropdown:hover{
+  cursor: pointer;
+}
+.dropdown-label{
+  position: absolute;
+  top: 100px;
+  left: 96.5%;
+  color: #111671;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a{
+  text-decoration: none;
+  color: #272b14;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a:hover{
+  color: #73e2c2;
+}
+.dropdown-items{
+  position: absolute;
+  top: -22px;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e3d858;
+  border: 3px solid #d58bc6;
+  border-radius: 3px;
+  padding: 0 11%;
+}
+.dropdown-hidden{
+  display: none;
 }
