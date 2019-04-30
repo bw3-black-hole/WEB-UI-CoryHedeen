@@ -1,0 +1,198 @@
+/* CSS */
+html{
+  font-size: 64.5%;
+}
+a{
+  text-decoration: none;
+}
+.main-container{
+  max-width: 880px;
+  width: 100%;
+}
+.container{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 880px;
+  color: white;
+}
+
+.black-hole{
+  position: absolute;
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+}
+.yellow-p{
+  position: absolute;
+  max-width: 1280px;
+  width: 100%;
+  height: 250px;
+  top: 200px;
+  left: 0.5%;
+}
+.positive {
+  position: absolute;
+  text-align: left;
+  top: 200px;
+  left: 2%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  width: 45%;
+  color: #272b14;
+}
+.enter {
+  position: absolute;
+  text-align: left;
+  top: 200px;
+  left: 50%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  width: 50%;
+  color: #272b14;
+}
+
+.btn-background{
+  position: absolute;
+  max-width: 1280px;
+  top: 390px;
+  width: 100%;
+  height: 100%
+}
+.account{
+  position: absolute;
+  background: #111671;
+  color: #e3d858;
+  top: 400px;
+  left: 17%;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 1%;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.account a{
+  color: #e3d858;
+}
+.sign-in{
+  position: absolute;
+  color: #111671;
+  top: 400px;
+  left: 65%;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px 5%;
+  border: 3px solid #111671;
+  border-radius: 3px;
+}
+.sign-in a{
+  color: #111671;
+}
+.title{
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  color: yellow;
+  font-size: 6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.maxim{
+  position: absolute;
+  top: 170px;
+  left: 15%;
+  color: #dccfbf;
+  font-size: 3rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    color: #d58bc6;
+    top: 40px;
+    left: 85%;
+    width: 7em;
+    height: 0.8em;
+    border-top: 1.2em solid #d58bc6;
+    border-bottom: 1.2em solid #d58bc6;
+}
+.dropdown:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0px;
+    width: 100%;
+    border-top: 1.2em solid #d58bc6;;
+}
+.dropdown:hover{
+  cursor: pointer;
+}
+.dropdown-label{
+  position: absolute;
+  top: 50px;
+  left: 26.5%;
+  color: #d58bc6;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a{
+  text-decoration: none;
+  color: #272b14;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a:hover{
+  color: #73e2c2;
+}
+.dropdown-items{
+  position: absolute;
+  top: -22px;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e3d858;
+  border: 3px solid #d58bc6;
+  border-radius: 3px;
+  padding: 0 11%;
+}
+.dropdown-hidden{
+  display: none;
+}
+
+@media (max-width: 700px){
+  .btn-background{
+    height: 30%;
+    top: 450px;
+  }
+  .yellow-p{
+    width: 100%;
+  }
+  .container{
+    position: fixed;
+  }
+  .positive{
+    width: 90%;
+    left: 5%
+  }
+  .enter{
+    width: 90%;
+    top: 310px;
+    left: 5%;
+  }
+  .account{
+    top: 460px;
+  }
+  .sign-in{
+    top: 459px;
+  }
+  .dropdown{
+    top: 15px;
+    left: 40%
+  }
+  .title{
+    top: 100px;
+  }
+  .maxim{
+    top: 170px;
+  }
+}
