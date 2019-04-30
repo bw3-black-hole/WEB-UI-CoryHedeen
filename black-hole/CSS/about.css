@@ -1,0 +1,225 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html{
+  font-size: 64.5%;
+}
+.container{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 880px;
+}
+.main-img{
+  width: 120%;
+  height: 700px;
+}
+.title{
+  position: absolute;
+  top: 300px;
+  left: 25%;
+  font-size: 7rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #111671;
+}
+.paragraph{
+  position: absolute;
+  top: 340px;
+  left: 83%;
+  width: 30%;
+  text-align: left;
+  font-size: 1.6rem;
+  color: #e3d858;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.blue-back {
+  position: absolute;
+  top: 0;
+  left: 74%;
+  height: 700px;
+}
+.yellow-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+}
+
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    color:#111671;
+    top: 40px;
+    left: 95%;
+    width: 7em;
+    height: 0.8em;
+    border-top: 1.2em solid #111671;
+    border-bottom: 1.2em solid #111671;
+}
+.dropdown:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0px;
+    width: 100%;
+    border-top: 1.2em solid #111671;
+}
+.dropdown:hover{
+  cursor: pointer;
+}
+.dropdown-label{
+  position: absolute;
+  top: 50px;
+  left: 20.5%;
+  color: #111671;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a{
+  text-decoration: none;
+  color: #272b14;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.dropdown-items a:hover{
+  cursor: pointer;
+  color: #73e2c2;
+}
+.dropdown-items{
+  position: absolute;
+  top: -22px;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e3d858;
+  border: 3px solid #d58bc6;
+  border-radius: 3px;
+  padding: 0 11%;
+}
+.dropdown-hidden{
+  display: none;
+}
