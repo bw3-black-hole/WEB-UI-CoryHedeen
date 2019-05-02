@@ -57,7 +57,7 @@ a{
   max-width: 1280px;
   top: 330px;
   width: 100%;
-  height: 50%;
+  height: 100%;
   margin: auto;
 }
 .account{
@@ -122,7 +122,7 @@ a{
     top: 3em;
     left: 0px;
     width: 100%;
-    border-top: 1.2em solid #d58bc6;;
+    border-top: 1.2em solid #d58bc6;
 }
 .dropdown:hover{
   cursor: pointer;
@@ -159,6 +159,83 @@ a{
 .dropdown-hidden{
   display: none;
 }
+.tabs {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+.tabs-items {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 1.6rem;
+
+}
+.tabs-item {
+  display: none;
+  width: 75%;
+  background: white;
+  color: #111671;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.submit{
+  position: absolute;
+  top: 840px;
+  left: 42%;
+  font-size: 1.8rem;
+  border: 2px solid #111671;
+  border-radius: 3px;
+  color: #111671;
+  padding: 10px 5%;
+}
+.submit:hover{
+  cursor: pointer;
+}
+.tabs-item-selected {
+  display: block;
+}
+.tabs-links {
+  display: flex;
+  background-color: #f5f351;
+  justify-content: center;
+}
+.tabs-link {
+  padding: 20px 25px;
+  font-size: 24px;
+  background-color: #111671;
+  border-right: 1px solid white;
+  color: #ffffff;
+  cursor: pointer;
+}
+.tabs-link:hover {
+  background-color: #d58bc6;
+}
+.tabs-link-selected {
+  z-index: 2;
+  border-right: 1px solid #111671;
+  background-color: #ffffff;
+  color: black;
+}
+.tabs-link-selected:hover {
+  background-color: #ffffff;
+}
+.example{
+  position: absolute;
+  top: 500px;
+  font-family: 'Quicksand', sans-serif;
+  color: #111671;
+  font-size: 1.9rem;
+  left: 2%;
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+
 
 @media (max-width: 700px){
   .btn-background{
@@ -200,14 +277,18 @@ a{
     left: 25%;
   }
 }
+
 @media(max-width: 500px){
   .title{
     left: 20%;
   }
   .maxim{
-    left: 13%;
+    left: 10%;
   }
   .enter {
     top: 435px;
+  }
+  .dropdown{
+    left: 40%;
   }
 }
