@@ -181,7 +181,9 @@ a{
   color: #111671;
   border: 1px solid transparent;
   border-radius: 10px;
+  text-align: center;
 }
+
 .submit{
   position: absolute;
   top: 840px;
@@ -218,7 +220,7 @@ a{
   z-index: 2;
   border-right: 1px solid #111671;
   background-color: #ffffff;
-  color: black;
+  color: #111671;
 }
 .tabs-link-selected:hover {
   background-color: #ffffff;
@@ -286,9 +288,22 @@ a{
     left: 10%;
   }
   .enter {
-    top: 435px;
+    top: 418px;
   }
   .dropdown{
     left: 40%;
+  }
+  .btn-background{
+    height: 780px;
+  }
+  .example {
+    top: 530px;
+  }
+  .tabs {
+    top: 670px;
+  }
+  .submit {
+    top: 890px;
+    left: 25%:
   }
 }
