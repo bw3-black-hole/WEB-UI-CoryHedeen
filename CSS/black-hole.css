@@ -215,6 +215,7 @@ a{
 }
 .tabs-link:hover {
   background-color: #d58bc6;
+  cursor: pointer;
 }
 .tabs-link-selected {
   z-index: 2;
@@ -282,13 +283,13 @@ a{
 
 @media(max-width: 500px){
   .title{
-    left: 20%;
+    left: 15%;
   }
   .maxim{
     left: 10%;
   }
   .enter {
-    top: 418px;
+    top: 435px;
   }
   .dropdown{
     left: 40%;
@@ -297,13 +298,20 @@ a{
     height: 780px;
   }
   .example {
-    top: 530px;
+    top: 570px;
   }
   .tabs {
-    top: 670px;
+    top: 710px;
   }
   .submit {
-    top: 890px;
+    top: 920px;
     left: 25%:
+  }
+  .sign-in {
+    padding: 10px 10%;
+    left: 55%;
+  }
+  .account{
+    left: 15%;
   }
 }
