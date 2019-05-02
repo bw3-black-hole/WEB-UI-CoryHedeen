@@ -186,7 +186,7 @@ a{
 
 .submit{
   position: absolute;
-  top: 840px;
+  top: 820px;
   left: 42%;
   font-size: 1.8rem;
   border: 2px solid #111671;
@@ -244,6 +244,8 @@ a{
   .btn-background{
     height: 100%;
     top: 310px;
+    margin: auto;
+    height: 780px;
   }
   .yellow-p{
     width: 100%;
@@ -269,7 +271,7 @@ a{
   }
   .dropdown{
     top: 15px;
-    left: 45%;
+    left: 50%;
   }
   .title{
     left: 30%;
@@ -277,7 +279,7 @@ a{
   }
   .maxim{
     top: 170px;
-    left: 25%;
+    left: 26%;
   }
 }
 
@@ -313,5 +315,8 @@ a{
   }
   .account{
     left: 15%;
+  }
+  .submit {
+    top: 930px;
   }
 }
